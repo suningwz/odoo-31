@@ -73,4 +73,6 @@ class AccountEdiFormat(models.Model):
         cfdi_values['tax_details_transferred'] = [tax_res for tax_res in cfdi_values['tax_details'] if tax_res['tax_amount'] >= 0.0]
         cfdi_values['tax_details_withholding'] = [tax_res for tax_res in cfdi_values['tax_details'] if tax_res['tax_amount'] < 0.0]
 
+        cfdi_values['custom_numbers'] = line._l10n_mx_edi_get_custom_numbers()
+
         return cfdi_values
