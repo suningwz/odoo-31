@@ -4,4 +4,4 @@
 #    Module Writen to Odoo14, Open Source Management Solution
 #
 ############################################################################
-from . import models
+from . import inherit_account_edi_format

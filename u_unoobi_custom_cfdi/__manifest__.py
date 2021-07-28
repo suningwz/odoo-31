@@ -21,7 +21,7 @@
 
     'version': '1.0',
 
-    'depends': ['base', 'l10n_mx_edi'],
+    'depends': ['l10n_mx_edi_extended'],
 
     'data': [
         'data/3.3/inherit_cfdi.xml',
