@@ -1,0 +1,4 @@
+[submodule "l10n_mx"]
+	path = l10n_mx
+	url = git@github.com:telematel/wedoo_l10n_mx.git
+	branch = 14.0
