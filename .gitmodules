@@ -2,3 +2,10 @@
 	path = l10n_mx
 	url = git@github.com:telematel/wedoo_l10n_mx.git
 	branch = 14.0
+[submodule "addons-wedoo"]
+	path = addons-wedoo
+	url = git@github.com:telematel/addons-wedoo.git
+[submodule "wedoo-addendas-edi"]
+	path = wedoo-addendas-edi
+	url = git@github.com:telematel/wedoo-addendas-edi.git
+	branch = 14.0
